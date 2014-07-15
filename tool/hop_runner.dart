@@ -1,7 +1,7 @@
 library hop_runner;
 
 import 'dart:async';
-import "dart:io";
+import 'dart:io';
 
 import 'package:hop/hop.dart';
 import 'package:hop/hop_tasks.dart' hide createAnalyzerTask;
@@ -12,11 +12,16 @@ part 'utils.dart';
 part 'version.dart';
 part 'analyze.dart';
 
-var files = ["lib/parser.dart"];
+Map<String, dynamic> config;
+
+void load_build_config() {
+  config = loadYaml(new File("tool/build.yaml").readAsStringSync());
+}
 
 void main(List<String> args) {
-  addTask("docs", createDocGenTask(".", out_dir: "out/docs"));
-  addTask("analyze", createAnalyzerTask(files));
+  load_build_config();
+  addTask("docs", createDocGenTask(config["docs"]["root"], out_dir: config["docs"]["output"]));
+  addTask("analyze", createAnalyzerTask(config["analyzer"]["files"]));
   addTask("version", createVersionTask());
   addTask("publish", createProcessTask("pub", args: ["publish", "-f"], description: "Publishes a New Version"), dependencies: ["version"]);
   addTask("bench", createBenchTask());

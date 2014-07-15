@@ -1,0 +1,11 @@
+analyzer:
+  files:
+  - "lib/parser.dart"
+  - "lib/test.dart"
+  - "lib/json.dart"
+  - "lib/lisp.dart"
+  - "lib/debug.dart"
+  - "lib/beta.dart"
+docs:
+  root: "."
+  output: "out/docs"
