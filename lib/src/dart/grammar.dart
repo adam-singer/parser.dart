@@ -138,6 +138,12 @@ class DartGrammar extends CompositeParser2 {
     OF = _token('of');
     ON = _token('on');
 
+    // enums
+    ENUM = _token('enum');
+
+    // async/await
+    ASYNC = _token('async');
+    AWAIT = _token('await');
   }
 
   void _types() {

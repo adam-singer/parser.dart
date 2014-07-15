@@ -388,7 +388,7 @@ abstract class Parser {
   Parser copy();
 
   /**
-   * Recusively tests for the equality of two parsers.
+   * Recursively tests for the equality of two parsers.
    *
    * The code can automatically deals with recursive parsers and parsers that
    * refer to other parsers. This code is supposed to be overridden by parsers

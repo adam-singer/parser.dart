@@ -6,7 +6,7 @@ part of parser;
  * To create a new composite grammar subclass [CompositeParser]. Override
  * the method [initialize] and for every production call [def] giving the
  * production a name. The start production must be named 'start'. To refer
- * to other produtions (forward and backward) use [ref].
+ * to other productions (forward and backward) use [ref].
  *
  * Consider the following example to parse a list of numbers:
  *
@@ -114,7 +114,7 @@ abstract class CompositeParser extends DelegateParser {
   }
 
   /**
-   * Redefinies an existing production with a [name] and a [replacement]
+   * Redefines an existing production with a [name] and a [replacement]
    * parser or function producing a new parser. The code raises an
    * [UndefinedProductionError] if [name] is an undefined production. Only call
    * this method from [initialize].
