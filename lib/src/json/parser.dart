@@ -1,4 +1,4 @@
-part of json;
+part of parser.json;
 
 /**
  * JSON parser definition.

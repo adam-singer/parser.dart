@@ -4,7 +4,7 @@ import 'dart:math' as math;
 
 import 'package:unittest/unittest.dart';
 
-import 'package:petitparser/petitparser.dart';
+import 'package:parser/parser.dart';
 
 void expectSuccess(Parser parser, dynamic input, dynamic expected, [int position]) {
   var result = parser.parse(input);

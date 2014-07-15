@@ -2,7 +2,7 @@ library lisp_test;
 
 import 'package:unittest/unittest.dart';
 
-import 'package:petitparser/lisp.dart';
+import 'package:parser/lisp.dart';
 
 void main() {
   var parser = new LispParser();

@@ -1,4 +1,4 @@
-part of debug;
+part of parser.debug;
 
 /**
  * Adds progress handlers to each parser reachable from [root].

@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * A builder that allows the simple definition of expression grammars with

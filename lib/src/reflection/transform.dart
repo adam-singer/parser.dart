@@ -1,4 +1,4 @@
-part of reflection;
+part of parser.reflection;
 
 /**
  * A function transforming one parser to another one.

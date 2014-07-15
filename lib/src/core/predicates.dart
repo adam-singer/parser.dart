@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * Returns a parser that accepts any input element.

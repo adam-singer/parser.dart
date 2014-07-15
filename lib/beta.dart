@@ -6,7 +6,7 @@
 library beta;
 
 import 'dart:mirrors';
-import 'package:petitparser/petitparser.dart';
+import 'package:parser/parser.dart';
 
 /**
  * Experimental helper to compose complex grammars from various primitive

@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * Helper to compose complex grammars from various primitive parsers.

@@ -1,4 +1,4 @@
-part of debug;
+part of parser.debug;
 
 /**
  * Adds trace handlers to each parser reachable from [root].

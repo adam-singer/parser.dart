@@ -1,4 +1,4 @@
-part of debug;
+part of parser.debug;
 
 /**
  * Adds profiling handlers to each parser reachable from [root].

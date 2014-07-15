@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * A parser that performs a transformation with a given function on the

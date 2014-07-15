@@ -4,8 +4,8 @@ import 'dart:io';
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:petitparser/petitparser.dart';
-import 'package:petitparser/lisp.dart';
+import 'package:parser/parser.dart';
+import 'package:parser/lisp.dart';
 
 /** Read, evaluate, print loop. */
 void evalInteractive(LispParser parser, Environment env,

@@ -1,8 +1,8 @@
-library reflection;
+library parser.reflection;
 
 import 'dart:collection';
 
-import 'package:petitparser/petitparser.dart';
+import 'package:parser/parser.dart';
 
 part 'src/reflection/iterable.dart';
 part 'src/reflection/optimize.dart';

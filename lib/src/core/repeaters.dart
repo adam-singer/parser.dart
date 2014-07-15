@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * An [int] used to mark an unbounded maximum repetition.

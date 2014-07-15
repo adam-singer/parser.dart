@@ -1,4 +1,4 @@
-part of dart;
+part of parser.dart;
 
 /**
  * Dart grammar definition.

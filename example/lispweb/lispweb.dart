@@ -1,7 +1,7 @@
 library lispweb;
 
 import 'dart:html';
-import 'package:petitparser/lisp.dart';
+import 'package:parser/lisp.dart';
 
 void inspector(Element element, Environment environment) {
   var result = '';

@@ -1,4 +1,4 @@
-part of smalltalk;
+part of parser.smalltalk;
 
 /**
  * Smalltalk grammar definition.

@@ -15,7 +15,7 @@
 library test_util;
 
 import 'package:matcher/matcher.dart';
-import 'package:petitparser/petitparser.dart';
+import 'package:parser/parser.dart';
 
 /**
  * Returns a matcher that succeeds if the [parser] accepts the input.

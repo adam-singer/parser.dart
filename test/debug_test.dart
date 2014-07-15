@@ -2,8 +2,8 @@ library debug_test;
 
 import 'package:unittest/unittest.dart';
 
-import 'package:petitparser/petitparser.dart';
-import 'package:petitparser/debug.dart';
+import 'package:parser/parser.dart';
+import 'package:parser/debug.dart';
 
 // weird bug in transformation makes the test break if we don't start
 // from a clean parser every time

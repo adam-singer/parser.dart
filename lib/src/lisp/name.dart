@@ -1,4 +1,4 @@
-part of lisp;
+part of parser.lisp;
 
 /**
  * An unique symbolic name.
@@ -21,5 +21,4 @@ class Name {
 
   /** Returns the string representation of the symbolic name. */
   String toString() => _name;
-
 }

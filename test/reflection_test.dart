@@ -2,8 +2,8 @@ library reflection_test;
 
 import 'package:unittest/unittest.dart';
 
-import 'package:petitparser/petitparser.dart';
-import 'package:petitparser/reflection.dart';
+import 'package:parser/parser.dart';
+import 'package:parser/reflection.dart';
 
 main() {
   group('iterator', () {

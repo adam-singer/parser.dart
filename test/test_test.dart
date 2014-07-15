@@ -2,8 +2,8 @@ library test_test;
 
 import 'package:unittest/unittest.dart';
 
-import 'package:petitparser/petitparser.dart';
-import 'package:petitparser/test.dart';
+import 'package:parser/parser.dart';
+import 'package:parser/test.dart';
 
 void main() {
   test('accept', () {

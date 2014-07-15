@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * Parser class for individual character classes.

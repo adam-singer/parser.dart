@@ -1,4 +1,4 @@
-part of lisp;
+part of parser.lisp;
 
 /**
  * LISP grammar definition.

@@ -1,4 +1,4 @@
-part of debug;
+part of parser.debug;
 
 /**
  * Handler function for the [ContinuationParser].

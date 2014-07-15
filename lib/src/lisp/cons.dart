@@ -1,4 +1,4 @@
-part of lisp;
+part of parser.lisp;
 
 /**
  * The basic data structure of LISP.

@@ -1,4 +1,4 @@
-part of lisp;
+part of parser.lisp;
 
 /**
  * The standard library.

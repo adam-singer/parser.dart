@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * Abstract base class of all parsers.

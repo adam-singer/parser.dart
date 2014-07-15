@@ -9,8 +9,8 @@ import 'dart:io';
 
 import 'package:unittest/unittest.dart';
 
-import 'package:petitparser/dart.dart';
-import 'package:petitparser/test.dart';
+import 'package:parser/dart.dart';
+import 'package:parser/test.dart';
 
 void generateTests(DartGrammar dart, String title, String path) {
   group(title, () {

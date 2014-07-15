@@ -1,10 +1,9 @@
 /**
  * This package contains some simple debugging tools.
  */
-library debug;
+library parser.debug;
 
-import 'package:petitparser/petitparser.dart';
-import 'package:petitparser/reflection.dart';
+import 'package:parser/parser.dart';
 
 part 'src/debug/continuation.dart';
 part 'src/debug/profile.dart';

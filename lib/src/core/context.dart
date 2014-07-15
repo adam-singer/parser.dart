@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * An immutable parse context.

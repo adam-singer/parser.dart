@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * A token represents a parsed part of the input stream.

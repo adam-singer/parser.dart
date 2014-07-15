@@ -1,4 +1,4 @@
-part of petitparser;
+part of parser;
 
 /**
  * A parser that delegates to another one. Normally users do not need to
