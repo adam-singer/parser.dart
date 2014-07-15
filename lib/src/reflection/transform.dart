@@ -10,7 +10,7 @@ typedef Parser TransformationHandler(Parser parser);
  * The identity function returns a copy of the the incoming parser.
  *
  * The implementation first creates a copy of each parser reachable in the
- * input grammar; then the resulting grammar is iteratively transfered and
+ * input grammar; then the resulting grammar is iteratively transferred and
  * all old parsers are replaced with the transformed ones until we end up
  * with a completely new grammar.
  */
